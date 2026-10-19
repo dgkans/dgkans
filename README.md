@@ -28,7 +28,7 @@ Worked on low-latency trading pipelines processing 5M+ messages/day and shipped 
 ## Connect with me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HERE/" target="_blank">
+  <a href="https://www.linkedin.com/in/gaurav-desai-9bb562289/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" />
   </a>
 </p>
@@ -57,15 +57,39 @@ Worked on low-latency trading pipelines processing 5M+ messages/day and shipped 
   <img src="https://skillicons.dev/icons?i=jenkins,linux,elasticsearch,grafana,figma,graphql" />
 </p>
 
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=vite,vitest,githubactions,cloudflare" />
+</p>
+
+**AI agents, LLMs & observability**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Model%20Context%20Protocol-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" alt="Groq" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
+  <img src="https://img.shields.io/badge/Jaeger-66CFE3?style=for-the-badge&logo=jaeger&logoColor=white" alt="Jaeger" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+  <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+  <img src="https://img.shields.io/badge/Neon%20Postgres-00E599?style=for-the-badge&logo=postgresql&logoColor=white" alt="Neon Postgres" />
+</p>
+
 ---
 
 ## Featured Projects
 
-### BlogSpace
-MERN-stack blogging platform with REST APIs, JWT authentication, author dashboard, React Quill editor, autosave drafts, scheduled publishing, Cloudinary image uploads, search, filters, tags, reactions, comments, bookmarks, view tracking, and light/dark theme persistence.
+### [TradeGuard: Safety Gateway for AI Trading Agents](https://github.com/dgkans/TradeGuard) · [Live Demo](https://tradeguard-4c9.pages.dev)
+MCP safety gateway for LLM trading agents built with Python, LangGraph, FastAPI, PostgreSQL, and React/TypeScript. Every agent tool call passes a fail-closed pipeline (schema checks, trader risk limits, prompt-injection taint tracking, LLM-judged intent alignment) with human approval for large orders. A 100-scenario evaluation harness (900 runs) cut unsafe orders executed from 30 to 0, and the live multi-user paper-trading desk runs on real-time Finnhub prices with OpenTelemetry tracing and CI/CD to Render, Neon, and Cloudflare Pages.
 
 ### Transforming Real Estate with AI
 AI-powered real estate platform built with MERN and FastAPI, using Random Forest and KNN models for property price prediction, comparable property analysis, and investment recommendations.
+
+### BlogSpace
+MERN-stack blogging platform with REST APIs, JWT authentication, author dashboard, React Quill editor, autosave drafts, scheduled publishing, Cloudinary image uploads, search, filters, tags, reactions, comments, bookmarks, view tracking, and light/dark theme persistence.
 
 ### AetherVault
 Decentralized NFT auction and marketplace built on Ethereum with minting, fixed-price sales, auctions, analytics dashboards, Solidity, OpenZeppelin ERC-721, React, ethers.js, and IPFS.
