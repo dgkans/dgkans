@@ -85,16 +85,16 @@ Worked on low-latency trading pipelines processing 5M+ messages/day and shipped 
 ### [TradeGuard: Safety Gateway for AI Trading Agents](https://github.com/dgkans/TradeGuard) · [Live Demo](https://tradeguard-4c9.pages.dev)
 MCP safety gateway for LLM trading agents built with Python, LangGraph, FastAPI, PostgreSQL, and React/TypeScript. Every agent tool call passes a fail-closed pipeline (schema checks, trader risk limits, prompt-injection taint tracking, LLM-judged intent alignment) with human approval for large orders. A 100-scenario evaluation harness (900 runs) cut unsafe orders executed from 30 to 0, and the live multi-user paper-trading desk runs on real-time Finnhub prices with OpenTelemetry tracing and CI/CD to Render, Neon, and Cloudflare Pages.
 
-### Transforming Real Estate with AI
+### [Transforming Real Estate with AI](https://github.com/dgkans/AI_Realestate) · [Live Demo](https://ai-realestate-khaki.vercel.app)
 AI-powered real estate platform built with MERN and FastAPI, using Random Forest and KNN models for property price prediction, comparable property analysis, and investment recommendations.
 
-### BlogSpace
+### [BlogSpace](https://github.com/dgkans/BlogSpace) · [Live Demo](https://blog-space-nine-iota.vercel.app)
 MERN-stack blogging platform with REST APIs, JWT authentication, author dashboard, React Quill editor, autosave drafts, scheduled publishing, Cloudinary image uploads, search, filters, tags, reactions, comments, bookmarks, view tracking, and light/dark theme persistence.
 
-### AetherVault
+### [AetherVault](https://github.com/dgkans/AetherVaultBlockchain)
 Decentralized NFT auction and marketplace built on Ethereum with minting, fixed-price sales, auctions, analytics dashboards, Solidity, OpenZeppelin ERC-721, React, ethers.js, and IPFS.
 
-### E-Adoption Portal
+### [E-Adoption Portal](https://github.com/dgkans/EAdoptionPortal)
 Secure adoption management platform built with Java Spring Boot, SQL, and React, featuring role-based access, admin workflows, and real-time orphanage management.
 
 ---
